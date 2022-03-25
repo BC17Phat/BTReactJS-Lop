@@ -16,6 +16,8 @@ import SinhVien from './Databinding1/SinhVien';
 import Event from './Databinding1/Event';
 import DemoProps from './Props/DemoProps/DemoProps';
 import ShoesShop from './Props/ShoesShop/ShoesShop';
+import BaiTapQuanLyNguoiDung from './ReactForm/BaiTapQuanLyNguoiDung/BaiTapQuanLyNguoiDung';
+import ReactLifeCycle from './ReactLifeCycle/ReactLifeCycle';
 
 
 function App() {
@@ -36,7 +38,10 @@ function App() {
       {/* <QuanLyDanhSachPhim /> */}
       {/* <BaiTapXemChiTietSP /> */}
       {/* <BaiTapGioHangRedux /> */}
-      <GameXucXac />
+      {/* <GameXucXac /> */}
+      {/* <BaiTapQuanLyNguoiDung/> */}
+      <ReactLifeCycle/>
+
     </div>
   );
 }

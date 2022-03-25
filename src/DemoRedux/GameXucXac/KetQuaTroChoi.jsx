@@ -20,7 +20,14 @@ class KetQuaTroChoi extends Component {
                Tổng số bàn chơi : <span className='text-danger'>{tongSoBanChoi}</span>
           </div>
           <div>
-                <button className='btn btn-success p-3' style={{fontSize:25}}>Play game</button>
+                <button className='btn btn-success p-3' style={{fontSize:25}} onClick={()=>{
+                  const action = {
+                    type: 'PLAY_GAME',
+
+                  }
+                  // Gửi lên redux action play game xảy ra
+                  this.props.dispatch(action);
+                }}>Play game</button>
           </div>
 
       </div>

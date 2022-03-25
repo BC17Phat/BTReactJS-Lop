@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import ReactBootstrapCarousel from "react-bootstrap-carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
-import Container from 'react-bootstrap/Container'
+// import Container from 'react-bootstrap/Container'
 //Cấu hình store redux
 import { Provider } from 'react-redux';
 import { store } from './redux/configStore';
