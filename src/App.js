@@ -3,6 +3,7 @@ import './App.css';
 import Databinding from './DataBinding/Databinding';
 import HandleEvent from './HandleEvent/HandleEvent';
 import Rendering_Conditions from './Rendering_Conditions/Rendering_Conditions';
+import Rendering1 from './Rendering_Conditions/Rendering1';
 import Ex1StateDemo from './StateDemo/Ex1StateDemo';
 import RenderWithMap from './RenderWithMap/RenderWithMap';
 import QuanLyDanhSachPhim from './RenderWithMap/QuanLyDanhSachPhim';
@@ -33,14 +34,15 @@ function App() {
       {/* <ShoesShop/> */}
       {/* <HandleEvent /> */}
       {/* <Rendering_Conditions /> */}
-      {/* <Ex1StateDemo /> */}
+      {/* <Rendering1/> */}
+      <Ex1StateDemo />
       {/* <RenderWithMap /> */}
       {/* <QuanLyDanhSachPhim /> */}
       {/* <BaiTapXemChiTietSP /> */}
       {/* <BaiTapGioHangRedux /> */}
       {/* <GameXucXac /> */}
       {/* <BaiTapQuanLyNguoiDung/> */}
-      <ReactLifeCycle/>
+      {/* <ReactLifeCycle/> */}
 
     </div>
   );

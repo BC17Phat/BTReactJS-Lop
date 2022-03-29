@@ -8,7 +8,7 @@ export default class Databinding extends Component {
         price: 1000,
         img: 'https://i.pravatar.cc/200'
     }
-
+    // còn những render khác không phải mặc định mình có thể gọi hoặc ko
     renderProduct = () => {
         //Nội dung trả về của hàm muốn binding phải được chứa trong 1 thẻ bao phủ hoặc là 1 string hoặc number
         return (
@@ -22,7 +22,7 @@ export default class Databinding extends Component {
         )
     }
 
-    render() {
+    render() { // này là gốc để hiển thị ra giao diện mặc định được reactjs chọn
 
         
         //Biến (khai báo = var let const)
